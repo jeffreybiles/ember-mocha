@@ -1,6 +1,5 @@
 {
   "name": "ember-mocha",
-  "private": true,
   "version": "0.8.0",
   "authors": [
     "Dan Gebhardt",
@@ -11,7 +10,8 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "tests"
+    "tests",
+    "test"
   ],
   "dependencies": {
     "ember": "^1.10.0",
@@ -25,5 +25,6 @@
     "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.3",
     "jquery": "~2.1.1",
     "ember-data": "~1.0.0-beta.10"
-  }
+  },
+  "homepage": "https://github.com/jeffreybiles/ember-mocha"
 }
